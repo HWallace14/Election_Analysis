@@ -70,7 +70,7 @@ with open(file_to_load) as election_data:
 
 with open(file_to_save, "w") as txt_file:
 
-    #Print the final vote count to the terminal.
+    # After opening the file print the final vote count to the terminal.
     
     election_results = (
 
@@ -84,7 +84,7 @@ with open(file_to_save, "w") as txt_file:
 
     print(election_results, end="")
 
-    # Save the final cote count to the text file.
+    # After printing the final vote count to the terminal save the final cote count to the text file.
 
     txt_file.write(election_results)
 
@@ -100,7 +100,11 @@ with open(file_to_save, "w") as txt_file:
 
         candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
+        # Print each candidate's voter count and percentage to the terminal.
+        
         print(candidate_results)
+
+        # Save the candidate results to our text file.
 
         txt_file.write(candidate_results)
 
@@ -129,5 +133,7 @@ with open(file_to_save, "w") as txt_file:
         f"-------------------------------\n")
 
     print(winning_candidate_summary)
+
+    # Save the winning candidate's results to the text file.
 
     txt_file.write(winning_candidate_summary)
