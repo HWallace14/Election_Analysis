@@ -41,25 +41,30 @@ County Votes:
 
 This clearly shows that Denver had the biggest turnout and as a result they were the main influence for the election. Our final analysis looked like this:
 
-Election Results
--------------------------
+#### Election Results
+
 Total Votes: 369,711
--------------------------
+
 
 County Votes:
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
-------------------------
+
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
+
 Largest County Turnout: Denver
-------------------------
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
--------------------------
+
+- Charles Casper Stockham: 23.0% (85,213)
+- Diana DeGette: 73.8% (272,892)
+- Raymon Anthony Doane: 3.1% (11,606)
+
 Winner: Diana DeGette
+
 Winning Vote Count: 272,892
+
 Winning Percentage: 73.8%
--------------------------
+
 
 ## Challenge Summary
+
+This code turned out to be very effective at its intended job, with the ability to be used in any election where the results are saved in a csv file. If the columns holding the results were to be switched around or moved then the only thing we would have to change is the "row[]" indexes in lines 47 and 50. Additionally, if the titles of the documents were to change we could simply change the file_to_load variable to reflect the current folder and .csv file that we're working on. I'm very happy with how dynamic the code turned out to be. 
