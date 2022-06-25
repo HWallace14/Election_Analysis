@@ -35,9 +35,9 @@ The results of our new analysis were as follows:
 
 County Votes:
 
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
+* Jefferson: 10.5% (38,855)
+* Denver: 82.8% (306,055)
+* Arapahoe: 6.7% (24,801)
 
 This clearly shows that Denver had the biggest turnout and as a result they were the main influence for the election. Our final analysis looked like this:
 
