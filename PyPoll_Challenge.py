@@ -4,6 +4,9 @@
 # Add our dependencies.
 import csv
 import os
+import sys
+
+os.chdir(os.path.dirname(sys.argv[0]))
 
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources","election_results.csv")
